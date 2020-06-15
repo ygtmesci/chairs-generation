@@ -7,6 +7,8 @@ __1-__ Segmantation network (in Fig.2 network shown below which have Euclidean e
 
 __2-__ Embeddings are used to encode chair id's rather than one-hot encodings. Embeddings are generally preferred due to their statistical efficiency.
 
+You can use quick_data.py to download the dataset. Running this script with the h string for the dataset argument will process the chairs data to a TFRecords file. Then, you can use the parse_chairs function from utils/data to read the images.
+
 Resize training images as like as you want using __parse_chairs(x, resize=64)__ function.
 
 There is two different jupyter notebooks: training and experiment. In the experiment notebook, model structure is re-created manually and proper weights has been loaded for experiments such as morphing between images and fixing other parameters like rotation and elevation.
