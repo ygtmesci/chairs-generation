@@ -15,7 +15,7 @@ There is two different jupyter notebooks: training and experiment. In the experi
 
 # Experiment outputs
 
-Morphing between two chair (fixed elevation and rotation)
+Morphing between two chairs (fixed elevation and rotation)
 
 ![Morphing Image](https://i.imgur.com/qWO7iyS.png)
 
